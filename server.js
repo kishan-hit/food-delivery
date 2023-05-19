@@ -3,6 +3,7 @@ const { Server } = require("socket.io");
 const express = require("express");
 const fileUpload = require("express-fileupload");
 const cookieParser = require("cookie-parser");
+const path = require('path');
 const app = express();
 
 const httpServer = createServer(app);
